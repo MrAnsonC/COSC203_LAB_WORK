@@ -121,6 +121,15 @@ img {
 }
 
 #img6 {
+    filter: sepia(80%);
+}
+
+#img7 {
+    filter: saturate(200%);
+}
+
+
+#img8 {
     filter: invert() sepia() saturate(500%) hue-rotate(50deg);
 }
 
