@@ -3,6 +3,15 @@
     border-radius: 10px; 
 }
 
+.kalnia-glaze-special-font {
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+
 div {
     position: relative; 
 
@@ -109,6 +118,9 @@ img {
     font-size: 2ex;
     object-position: 0% 0%;
     margin-right: 20px;
+    right: 100%;
+    border-radius: 70%;
+
 }
 
 #img2 {
