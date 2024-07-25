@@ -1,24 +1,27 @@
 * {
-    border: 1px solid red; /* all at once */
-    border-radius: 10px; /* rounded corners */
+    border: 1px solid red; 
+    border-radius: 10px; 
 }
 
 div {
-    position: relative; /* enable positioning */
+    position: relative; 
 
     top: 0;
     right: 20%;
     bottom: 0;
     left: 20%;
 
-    inset: 10px; /* all 4 sides */
-    inset: 0 20% 0 20%; /* top right bottom left */
+    inset: 10px; 
+    inset: 0 20% 0 20%;
     z-index: 100;
 }
 
 body {
     background: blue;
     color: yellow;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
     font-family: Arial, sans-serif;
 }
 
@@ -68,13 +71,14 @@ nav a:hover {
 
 main {
     background: hsl(212, 100%, 55%);
-    padding: 20px;
+    margin: 20px;
     margin-bottom: 10px;
 }
 
 footer {
     background: rgb(255, 198, 45);
     text-align: center;
+    position: relative;
     padding: 10px;
     font-size: 12px;
 }
@@ -89,7 +93,6 @@ img {
     display: block;
     margin: 0 auto;
     padding: 10px;
-    
 }
 
 .image-grid {
@@ -102,6 +105,10 @@ img {
 
 #img1 {
     filter: blur(5px);
+    object-fit: cover;
+    font-size: 2ex;
+    object-position: 0% 0%;
+    margin-right: 20px;
 }
 
 #img2 {
