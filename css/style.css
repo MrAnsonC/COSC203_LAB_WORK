@@ -104,6 +104,10 @@ img {
     padding: 10px;
 }
 
+figcaption {
+    text-align: center;
+}
+
 .image-grid {
     size: 100px;
     display: flex;
