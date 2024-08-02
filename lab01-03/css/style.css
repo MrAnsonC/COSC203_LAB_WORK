@@ -104,8 +104,21 @@ img {
     padding: 10px;
 }
 
+figure {
+    position: relative;
+}
+
 figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
     text-align: center;
+    padding: 5px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
 }
 
 .image-grid {
@@ -154,6 +167,10 @@ figcaption {
 
 #img8 {
     filter: invert() sepia() saturate(500%) hue-rotate(50deg);
+}
+
+figcaption {
+    z-index: 100;
 }
 
 
